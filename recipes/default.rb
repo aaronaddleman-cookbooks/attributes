@@ -6,3 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+template '/tmp/example_of_precedence' do
+  source 'examples.erb'
+end
