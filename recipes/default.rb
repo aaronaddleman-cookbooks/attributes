@@ -7,8 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-node.default['attributes']['lvl_02'] = "Default value from: lvl_2 recipe file"
-
+node.default['attributes']['lvl_02'] = "Default value from: lvl_02 recipe file"
+node.force_default['attributes']['lvl_06'] = "Force default value from: lvl_06 recipe file"
 
 template '/tmp/example_of_precedence' do
   source 'examples.erb'
